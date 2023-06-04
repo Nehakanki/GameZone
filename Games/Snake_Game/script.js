@@ -1,7 +1,7 @@
 //Game requirements
 let inputDir={x:0,y:0}
 let direction={x:0,y:0};
-let speed=10;
+let speed=6;
 let score=0;
 let lastPaintTime=0;
 let snakeArr=[{x:Math.round(2+16*Math.random()),y:Math.round(2+16*Math.random())}];

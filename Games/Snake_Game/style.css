@@ -5,7 +5,10 @@
 }
 
 .body{
-    background-image: linear-gradient(limegreen,yellow);
+   /* // background-image: linear-gradient(limegreen,yellow);
+    */
+    background-image: linear-gradient(rgb(203, 206, 203),#ffffff);
+
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
@@ -34,39 +37,43 @@
 }
 
 #board{
-    background-image:  linear-gradient(orange,violet);
+    background-image:  linear-gradient(rgb(7, 142, 226),#ffffff);
     width: 90vmin;
     height: 92vmin;
     border: 3px solid black;
+    border-radius: 14px;
     display: grid;
     grid-template-rows: repeat(18,1fr);
     grid-template-columns: repeat(18,1fr);
 }
 
 .head{
-    background-image:linear-gradient(grey,purple);
+    background-image:linear-gradient(rgb(236, 236, 236),rgb(0, 125, 52));
     transform: scale(1.02);
-    border: 2px solid purple;
-    border-radius: 4px;
+    border: 2px solid rgb(0, 125, 52);
+    border-radius: 12px;
 }
 
 .snake{
-    background-color: purple;
-    border: .25vmin solid white;
+    /* background-color: purple; */
+    background-color: rgb(0, 125, 52);
+    border: .25vmin solid rgb(51, 187, 151);
     border-radius: 12px;
 }
 
 .food{
-    background-image:linear-gradient(yellow,orange);
+    background-image:linear-gradient(rgb(255, 0, 0),rgb(244, 131, 123));
     border: .25vmin solid black;
     border-radius:50% ;
-=======
+}
 body {
+    
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
-    color: white;
+    color: rgb(11, 30, 159);
+    
     text-align: center;
-    background-color: blue;
+    background-color: rgb(237, 237, 239);
 }
 h1{
     margin: 0.5rem;
